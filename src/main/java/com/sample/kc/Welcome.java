@@ -15,6 +15,10 @@ public class Welcome {
     }
 
     public String method3(){
-        return "I'm at bangalre \n";
+        return "I'm at bengalure \n";
+    }
+
+    public String method4(){
+        return "I'm doing good \n";
     }
 }
