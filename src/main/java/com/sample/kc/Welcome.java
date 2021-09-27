@@ -3,7 +3,7 @@ package com.sample.kc;
 public class Welcome {
 
     public String hello(){
-        return "Hello How are you \n" + method1()+ method2();
+        return "Hello How are you \n" + method1()+ method2()+method3();
     }
 
     public String method1(){
@@ -12,5 +12,9 @@ public class Welcome {
 
     public String method2(){
         return "This is krishna \n";
+    }
+
+    public String method3(){
+        return "I'm at bangalre \n";
     }
 }
